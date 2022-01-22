@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageViewer.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="MediumVioletRed" Padding="24" CornerRadius="0">
+            <Label Text="Image Viewer" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry x:Name="ImageUrl" Placeholder="Enter image url"/>
+        <Button Text="Show" Clicked="UpdateImage"/>
+        <Image x:Name="Image" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+    </StackLayout>
+
+</ContentPage>
