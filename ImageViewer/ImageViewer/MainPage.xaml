@@ -7,8 +7,8 @@
         <Frame BackgroundColor="MediumVioletRed" Padding="24" CornerRadius="0">
             <Label Text="Image Viewer" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
         </Frame>
-        <Entry x:Name="ImageUrl" Placeholder="Enter image url"/>
-        <Button Text="Show" Clicked="UpdateImage"/>
+        <Entry x:Name="ImageUrl" Placeholder="Enter image URL"/>
+        <Button Text="Show" BackgroundColor="MediumVioletRed" Clicked="UpdateImage"/>
         <Image x:Name="Image" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFit"/>
         <Label Text="matni.software" HorizontalTextAlignment="Center" TextColor="MediumVioletRed" FontSize="12" Margin="10"/>
     </StackLayout>
